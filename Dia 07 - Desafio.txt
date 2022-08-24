@@ -1,0 +1,5 @@
+Agora o que eu mais quero saber, vamos fechar com 10/10 essa semana?
+
+Depois de desenvolver, chegou o momento de dizer 'Hello World! Olha o projeto que eu fiz!'. Mostre para as pessoas a sua evolução e use esses aprendizados para construir seu portfólio.
+
+Para isso, você vai criar um repositório no GitHub e, assim, publicá-lo como a ajuda do Github Pages para que qualquer pessoa possa acessá-lo!

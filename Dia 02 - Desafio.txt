@@ -1,0 +1,7 @@
+No dia de hoje você vai focar em desenvolver o menu de navegação do site. Agora que você já tem um background com um super filme, você vai adicionar links para escolher filmes, séries e muito mais.
+
+Você vai desenvolver:
+
+o logo;
+o menu das páginas; e
+os botões de busca, notificação e usuário.

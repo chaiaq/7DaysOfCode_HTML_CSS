@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Clone Netflix</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Início da área do banner -->
+    <div class="banner">
+
+        <header>
+        <!-- Parte de navegação do menu / Cabeçalho do site-->
+            <div class="menu">
+                <div class="menuLogo"><img height="50px" src="src/img/logo1.png"></div>
+                <div class="menuTexto">
+                    <ul>
+                        <li>Início</li>
+                        <li>Séries</li>
+                        <li>Filmes</li>
+                        <li>Bombando</li>
+                        <li>Minha Lista</li>
+                    </ul>
+                </div>
+                <div class="menuUsuario">
+                    <ul>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-bell"></i></li>
+                    <li><img height="35px" src="src/img/user1.png"></li>
+                    <li><i class="fa-solid fa-sort-down"></i>
+                    </ul>
+                </div> 
+            </div>
+
+        </header>
+
+        <main>
+        <!-- Corpo principal do site -->
+            <div class="poster">
+                <img src="src/img/poster1.png">
+                <p class="sinopse">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica.</p>
+                <button type="submit" class="assistir"><i class="fas fa-play"></i> Assistir</button>
+                <button type="submit" class="informacoes"><i class="fas fa-thin fa-circle-info"></i> Mais Informações</button>
+            </div>
+
+            <div class="listas">
+                <p class="tituloCategoria">Minha Lista</p> 
+                <div class="slider">
+                    <section>       
+                        <div class="filme -animado">
+                            <img src="src/img/poster_01.png" alt="BoJack Horseman">
+                        </div>   
+                        <div class="filme -animado">
+                            <img src="src/img/poster_02.png" alt="Ozark">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_03.png" alt="A Vizinha da Mulher na Janela">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_04.png" alt="Breaking Bad">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_05.png" alt="The End of the F***ing World">
+                        </div>  
+                    </section> 
+                </div>
+
+                <p class="tituloCategoria">Em alta</p> 
+                <div class="slider">
+                    <section>     
+                        <div class="filme -animado">
+                            <img src="src/img/poster_01-1.png" alt="Stranger Things">
+                        </div>   
+                        <div class="filme -animado">
+                            <img src="src/img/poster_02-1.png" alt="The Umbrella Academy">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_03-1.png" alt="Peaky Blinders">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_04-1.png" alt="Arremessando Alto">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_05-1.png" alt="Amor e Gelato">
+                        </div>  
+                    </section>
+                </div>
+
+                <p class="tituloCategoria">Séries estrangeiras</p> 
+                <div class="slider">
+                    <section>     
+                        <div class="filme -animado">
+                            <img src="src/img/poster_01-2.png" alt="Queen Loretta">
+                        </div>   
+                        <div class="filme -animado">
+                            <img src="src/img/poster_02-2.png" alt="As 7 Vidas de Lea">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_03-2.png" alt="Young Royals">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_06-2.png" alt="Crescidinhos">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_05-2.png" alt="Dark">
+                        </div>  
+                    </section>
+                </div>
+
+                <p class="tituloCategoria">Séries excêntricas de humor ácido</p> 
+                <div class="slider">
+                    <section id="humor1">  
+                        <a href="#humor2" class="btnSeta"></i></a>
+                        <div class="filme -animado">
+                            <img src="src/img/poster_03.png" alt="Ozark">
+                        </div>   
+                        <div class="filme -animado">
+                            <img src="src/img/poster_01.png" alt="BoJack Horseman">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_09.png" alt="Ted Bundy Tapes">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_10.png" alt="Gabriel 'Fluffy' Iglesias">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_13.png" alt="Friends from College">
+                        </div>  
+                        <a href="#humor2" class="btnSeta"><i class="fas fa-angle-right"></i></a>
+                    </section>
+                    <section id="humor2">
+                        <a href="#humor1" class="btnSeta"><i class="fas fa-angle-left"></i></a>     
+                        <div class="filme -animado">
+                            <img src="src/img/poster_17.png" alt="The Good Place">
+                        </div>   
+                        <div class="filme -animado">
+                            <img src="src/img/poster_18.png" alt="Unbreakable Kimmy Schmidt">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_05.png" alt="The End of the F***ing World">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_06.png" alt="Boneca Russa">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_07.png" alt="Pray Away">
+                        </div>  
+                        <a href="#humor3" class="btnSeta"><i class="fas fa-angle-right"></i></a>
+                    </section>
+                    <section id="humor3">
+                        <a href="#humor2" class="btnSeta"><i class="fas fa-angle-left"></i></a>     
+                        <div class="filme -animado">
+                            <img src="src/img/poster_01-2.png" alt="Queen Loretta">
+                        </div>   
+                        <div class="filme -animado">
+                            <img src="src/img/poster_02-2.png" alt="As 7 Vidas de Lea">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_03-2.png" alt="Young Royals">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_06-2.png" alt="Crescidinhos">
+                        </div>  
+                        <div class="filme -animado">
+                            <img src="src/img/poster_05-2.png" alt="Dark">
+                        </div>  
+                        <a href="#humor1" class="btnSeta"><i class="fas fa-angle-right"></i></a>
+                    </section>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+        <!-- Rodapé do site -->
+            <div class="redesSociais">
+                <a href="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="youtube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li>Idiomas e legendas</li>
+                    <li>Imprensa</li>
+                    <li>Privacidade</li>
+                    <li>Entre em contato</li>
+                </ul>
+                
+                <ul>
+                    <li>Audiodescrição</li>
+                    <li>Relações com investidores</li>
+                    <li>Avisos legais</li>
+                </ul>
+
+                <ul>
+                    <li>Centro de ajuda</li>
+                    <li>Carreiras</li>
+                    <li>Preferência de cookies</li>
+                </ul>
+
+                <ul>
+                    <li>Cartão pré-pago</li>
+                    <li>Termos de uso</li>
+                    <li>Informações corporativas</li>
+                </ul>
+            </div>
+
+            <div class="codigo">
+                <button type="submit" class="btnCodigo">Código do serviço</button>
+            </div>
+
+            <div class="netflix">
+                © 1997-2022 Netflix, Inc.
+            </div>
+            
+
+
+        </footer>
+
+    </div>
+    <!-- Final da área do banner -->
+
+</body>
+</html>

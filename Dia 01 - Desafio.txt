@@ -1,0 +1,33 @@
+O escopo do seu desafio será uma tela que você já deve ter visto e que provavelmente às vezes passa horas navegando por ela, se perdendo no tempo enquanto escolhe o que irá assistir… Adivinhe só?
+
+Isso mesmo, você vai recriar a página da nossa queridinha Netflix utilizando somente HTML e CSS!
+
+Fernanda, mas como eu vou fazer isso?
+
+Ao longo dos próximos 7 dias, você vai criar essa página parte por parte e, no final, terá a estrutura completa da página inicial de navegação da Netflix.
+
+Para isso, você vai poder usar um layout no Figma. O Figma é um software que muitos designers utilizam para criar protótipos. E a partir desse protótipo que eu vou disponibilizar, você vai transformá-lo em código e dar vida real ao projeto! Beleza?
+
+Vou deixar aqui o Figma do projeto para você se basear.
+
+Não se preocupe, porque você não vai precisar editar nada no Figma ou nem mesmo baixar o aplicativo. Basta acessar o link acima e você já vai conseguir visualizar o layout! Lá, você também poderá visualizar todos os valores para espaçamento, cores do projeto, tamanhos de texto, e muito mais!
+
+No seu primeiro desafio, você iniciará o projeto organizando algumas coisas:
+
+Escolha um editor de texto da sua preferência.
+Crie a pasta do projeto com as separações dos arquivos de index, uma pasta "src" contendo o estilos, a pasta "img" para imagens, etc.
+Monte a estrutura HTML (com header / main / footer)
+
+Agora, com o projeto organizado, você vai começar a desenvolver o banner de destaque da página da Netflix:
+
+Primeiramente, você pode analisar os itens existentes nessa imagem para reproduzi-la:
+
+Uma imagem de fundo;
+Logo do filme;
+Um parágrafo descritivo do filme;
+Dois botões: "Assistir" e "Mais informações".
+
+Nesse desafio, não se preocupe com a responsividade. No momento, você vai desenvolver para a versão web-desktop.
+Bora começar?
+
+

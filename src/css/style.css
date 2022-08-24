@@ -1,0 +1,242 @@
+/* ----- GERAL, CORPO ----- */
+
+* {
+    box-sizing: border-box;
+    /* esse código inclui padding e border na width e height do elemento */
+}
+
+/* '*' é o seletor universal */
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.banner {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 5%,
+      rgba(0, 0, 0, 0.2) 20%,
+      rgba(0, 0, 0, 0.2) 80%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../img/banner1.png);
+    /* código para dar o efeito 'gradiente' na imagem */
+    background-size: cover;
+}
+
+.poster {
+    margin: 150px 60px 0 60px;
+    width: 450px;
+}
+
+.poster img {
+    width: 450px;
+}
+
+.sinopse {
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.assistir {
+    border: none;
+    margin: 10px 10px 10px 0;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+.assistir:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.informacoes {
+    border: none;
+    margin: 10px 10px 10px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+.informacoes:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* ----- HEADER, MENU ----- */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    margin: 10px 60px 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuLogo img {
+    width: 100px;
+    height: 30px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu ul li {
+    padding-right: 20px;
+}
+
+.menuUsuario {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.menuUsuario ul li {
+    padding-right: 15px;
+}
+
+/* ----- TRILHA DE FILMES ----- */
+
+.listas {
+    margin: 120px 60px 0 60px;
+}
+
+.listas img {
+    height: 180px;
+}
+
+.tituloCategoria {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.filme {
+    padding: 0 2px;
+}
+
+.filme img {
+    width: 100%;
+    padding: 2px;
+}
+
+.-animado:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+
+.slider {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    /* divide o conteúdo do slider em três colunas que ficam escondidas */
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.btnSeta {
+    position: absolute;
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    z-index: 1;
+}
+
+.btnSeta i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.btnSeta i:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.15);
+}
+  
+  .btnSeta:nth-of-type(1) {
+    margin-top: 50px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .btnSeta:nth-of-type(2) {
+    margin-top: 50px;
+    right: 0;
+    background-color: transparent;
+  }
+
+  /* ----- RODAPÉ, REDES SOCIAIS ----- */
+
+  footer {
+    margin: 30px 60px 0 60px;
+  }
+
+.redesSociais a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.redesSociais i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.links ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.codigo {
+    margin-top: 10px;
+}
+
+.btnCodigo {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color:transparent;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px;
+    text-decoration: none; 
+}
+
+.netflix {
+    margin-top: 30px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}

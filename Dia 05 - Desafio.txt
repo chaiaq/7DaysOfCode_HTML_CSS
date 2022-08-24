@@ -1,0 +1,10 @@
+A sua evolução foi:
+
+Menu;
+Filme destaque com botões para Assistir e Mais informações;
+Um trilho de filmes/séries "Minha lista";
+Um trilho de filmes/séries "Em alta" com animação quando o mouse passa pelo filme/série.
+
+E agora, o que será que vem por aí?
+
+O que acha de criar um terceiro Trilho de categorias e, nesse trilho, fazer o efeito de slide, como se você tivesse um carrossel de filmes/séries que gira ao clicar nas setas de navegação?

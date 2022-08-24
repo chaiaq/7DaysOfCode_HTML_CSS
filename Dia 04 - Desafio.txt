@@ -1,0 +1,11 @@
+Hoje você vai dar uma banho de loja nos seus trilhos de filmes e séries.
+
+Uma feature muito comum e que ajuda bastante o usuário a se situar na página é você destacar algum item quando o mouse está sobre o mesmo. Ele pode, por exemplo, aumentar de tamanho, como nesse exemplo abaixo (você pode conferir no Figma com mais detalhes):
+
+Como você já fez ontem, hoje você vai reproduzir algo bem parecido com o trilho de categorias. Você pode alterar o nome do título, utilizar outras fotos de filmes/séries.
+
+Mas você pode estar pensando: "Fernanda, o que vai mudar então no código?"
+
+Você vai utilizar o hover, uma propriedade do CSS que te ajuda a deixar seu projeto com animações bem interessantes.
+
+Adicione a propriedade hover no estilo da classe que você quer animar. Neste caso, é o filme (ITEM) do seu TRILHO de CATEGORIAS.

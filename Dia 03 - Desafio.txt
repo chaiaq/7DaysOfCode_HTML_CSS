@@ -1,0 +1,9 @@
+Relembrando o desafio de ontem, você desenvolveu o menu de navegação da sua réplica de tela da Netflix.
+
+Você também já tem o banner com o filme destaque com a descrição e os botões de assistir e informações e o menu.
+
+O desafio de hoje é o meu favorito. Você vai criar o trilho de "Minha lista", o lugar onde salvamos os nossos filmes e séries para vermos mais tarde.
+
+Você pode chamar cada agrupamento de filmes de CATEGORIAS ("Minha lista", "Filmes de Comédia", "Filmes de Terror", e por aí vai) e, dentro de CATEGORIAS, você terá o TRILHO contendo os filmes e séries, e cada filme e série é um ITEM.
+
+Você pode iniciar o desenvolvimento de CATEGORIA pensando em uma <div> que irá conter um parágrafo <p> para adicionar o nome. Eu deixei com o nome de "Minha lista", mas você pode abusar da sua imaginação e dar o nome que preferir para a sua coleção de filmes.

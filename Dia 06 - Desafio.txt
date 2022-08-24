@@ -1,0 +1,3 @@
+Estou muito feliz de ver que você está dando tudo de si e esse é o seu penúltimo dia, espero que você tenha aprendido bastante até aqui.
+
+O seu desafio de hoje é desenvolver o footer, o nosso famoso rodapé. Eu confesso que adoro ler os rodapés dos sites!
