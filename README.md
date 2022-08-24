@@ -3,7 +3,7 @@
 
 Desafio #7DaysOfCode da Alura
 <br>
-Site publicado: <a href="https://nidril.github.io/7DaysOfCode_HTML_CSS/">aqui</a> 😋
+Site publicado: <a href="https://nidril.github.io/7DaysOfCode_HTML_CSS/" target="_blank">aqui</a> 😋
 
 Dia 01 - Concluído 🏆
 <br>
