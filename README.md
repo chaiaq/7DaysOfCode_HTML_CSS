@@ -1,4 +1,4 @@
-<h2>Clona Netflix usando HTML e CSS</h2>
+<h2>Clone Netflix usando HTML e CSS</h2>
 <h3>Fernanda Degolin</h3>
 
 Desafio #7DaysOfCode da Alura
